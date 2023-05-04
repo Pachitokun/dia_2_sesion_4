@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: #020410;
+}
+.container{
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    background: url('../image/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+h1{
+    background-color: rgba(178, 34, 34, 0.4);
+    background-size: 10px;
+}
+.neon{
+    box-shadow: 0 0 5px rgba(128, 0, 128, 0.4), 0 0 25px rgba(128, 0, 128, 0.4);
+    background: purple;
+}
+.neon:hover {
+    box-shadow: 0 0 5px purple,
+    0 0 25px purple, 0 0 50px purple,
+    0 0 100px purple, 0 0 200px purple;
+}
+a{
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    
+    
+    transition: 0.5s;
+}
+a:hover{
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
